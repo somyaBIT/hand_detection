@@ -35,7 +35,7 @@ function runDetectaion(){
 
         console.log(predictions);
         // to draw bounding boxes on a canvas element and customizable model parameters.
-        model.renderPredictions(predictions,canvas,context,video);  
+        // model.renderPredictions(predictions,canvas,context,video);  
         if(predictions.length>0)
         {
             audio.play()
